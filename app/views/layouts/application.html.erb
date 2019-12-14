@@ -7,6 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%=link_to "All students", students_path%>
+<%=link_to "| New student", new_student_path%>
+<%=link_to "| All school classes", school_classes_path%>
+<%=link_to "| New school class", new_school_class_path%>
 
 <%= yield %>
 
